@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-banner {
+    text-align: center;
+}
+
+.jogos {
+    margin-bottom: 20px;
+}
+
+.jogos h2 {
+    margin-bottom: 10px;
+}
+
+.jogos ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jogos li {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.jogos li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.jogos li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.categorias {
+    margin-bottom: 20px;
+}
+
+.categorias h2 {
+    margin-bottom: 10px;
+}
+
+.categorias ul {
+    list-style-type: none;
+}
+
+.categorias li {
+    margin-bottom: 5px;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.newsletter input[type="email"],
+.newsletter input[type="nome"],
+.newsletter input[type="telefone"],
+.newsletter textarea,
+.newsletter button {
+    padding: 8px;
+    width: 25%;
+    margin-bottom: 8px;
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.newsletter input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
